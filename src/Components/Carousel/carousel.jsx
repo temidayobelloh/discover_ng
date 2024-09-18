@@ -82,6 +82,7 @@ const Carousel = () => {
           behavior: 'smooth'
         });
       }
+      modal.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 100);
   };
 

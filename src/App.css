@@ -6,3 +6,10 @@
     margin: 0;
     padding: 0;
 }
+/*sizing of d map container*/
+.leaflet-container{
+    height: 75vh;
+    border-radius: 40px;
+    margin: 50px;
+    border: 5px solid #6B5B95;
+}
