@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: black; 
+  background-color: #b2dbbf; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -71,10 +71,12 @@
 
 .view-more-btn {
   margin-top: 10px;
-  background-color: #aad235;
+  background-color: #FF6F61;
   color: rgba(255, 255, 255, 0.934);
   border: none;
-  padding: 10px 20px; /* Adjusted padding for better button size */
+  width:60px;
+  height: 30px;
+  padding: 7px 10px; /* Adjusted padding for better button size */
   border-radius: 20px;
   cursor: pointer;
   font-size: 12px;
@@ -85,7 +87,7 @@
 }
 
 .view-more-btn:hover {
-  background-color: #ff9886;
+  background-color: #ff877c;
   transform: scale(1.05);
 }
 
@@ -126,14 +128,15 @@
 .modal-content {
   position: relative;
   margin: 0;
-  padding: 0;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: left;
 }
 
 .close-btn {
   position: absolute;
-  top: -30px;
-  right: 5px;
+  top: -20px;
+  right: -9px;
   font-size: 22px;
   cursor: pointer;
   z-index:999;

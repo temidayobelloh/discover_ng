@@ -5,7 +5,7 @@ import Carousel from './Components/Carousel/carousel';
 
 function App() {
   return (
-    <div>
+    <div cl>
     <Home/>
     <Explore/>
     <Carousel/>
