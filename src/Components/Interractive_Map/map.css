@@ -1,9 +1,12 @@
 .interractiveMapContainer{
     padding-top: 80px;
-    height: 30px;
+    height: 20px;
     display: block;
     width:900px;
     text-align: center;
     margin: 20px;
-    color: black;
+    color: #6B5B95;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
 }

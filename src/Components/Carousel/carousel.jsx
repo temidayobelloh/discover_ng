@@ -14,10 +14,16 @@ const Carousel = () => {
       extraInfo: "When heading to Devil's Elbow at Obudu Cattle Ranch, be ready for quick weather changes and navigate the steep road cautiously. Each turn and weather shift demands attention. Stay safe and enjoy the adventure!",
     },
     {
-      src: 'https://th.bing.com/th/id/R.cb3eae5ba230293dc791eb8f2f9bae0b?rik=TB5W0vNR9cbNLQ&pid=ImgRaw&r=0',
-      alt: 'Lekki Conservation Center, Lagos',
-      description: 'Lekki Conservation Center, Lagos',
-      extraInfo: 'Lekki Conservation Center proudly holds the title of having the longest canopy walkway in Africa (401 meters long). It is an impressive feat that offers visitors a unique and thrilling experience while enjoying the beauty of nature.',
+      src: 'https://static.wixstatic.com/media/b98b0a_03c45048a05b4b3bb64892c3f8525824~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg',
+      alt: 'Owu waterfall',
+      description: 'Owu Waterfall, Kwara',
+      extraInfo: 'It is known as the highest waterfall in West Africa, cascading height from about 120 meters.',
+    },
+    {
+      src: 'https://netstorage-legit.akamaized.net/images/vllkyt2j9ak76j18m.jpg',
+      alt: 'Ancient Nok settlement, Kaduna',
+      description: 'Nok Settlement, Kaduna',
+      extraInfo: 'The site is where the famous Nok terracotta sculptures were discovered, dating back to 1000 BC.',
     },
     {
       src: 'https://images.pexels.com/photos/21715785/pexels-photo-21715785/free-photo-of-view-of-the-zuma-rock-in-niger-state-nigeria.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -26,22 +32,10 @@ const Carousel = () => {
       extraInfo: 'Zuma Rock is situated in Suleja, Niger State, not in Abuja as commonly believed. It is remarkable that it is visible from Abuja due to the proximity of Suleja to the capital city. The rocks presence is quite a sight to behold and holds significant cultural importance in the region.',
     },
     {
-      src: 'https://images.timbu.com/contents-ef55dd2d0f504d469ea8fd03e5ce842e/691df2f3-f211-4af6-8bfb-df312542cc59.png',
-      alt: 'River Niger & Benue',
-      description: 'The Confluence, Lokoja, Kogi',
-      extraInfo: 'The rivers Niger and Benue have distinct temperatures, with Niger being warmer and the Benue river. This phenomenon is due to the different sources and flow patterns of the two rivers.',
-    },
-    {
       src: 'https://static.wixstatic.com/media/b98b0a_5aef202c037d4fdeb349f0ab974d71d6~mv2.jpg/v1/fill/w_980,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b98b0a_5aef202c037d4fdeb349f0ab974d71d6~mv2.jpg',
       alt: 'Olumo Rock',
       description: 'Olumo Rock, Abeokuta, Ogun',
       extraInfo: 'There is a tree near Olumo Rock that has been standing for over 200 years, and never sheds its leaves, regardless of the season.',
-    },
-    {
-      src: 'https://www.britishcouncil.org.ng/sites/default/files/freedom_park.jpg',
-      alt: 'Freedom Park',
-      description: 'Freedom Park, Lagos',
-      extraInfo: 'The Freedon park was once a colonial-era prison where notable political activists, inclusing Herbert Macaulay were imprisoned.',
     },
     {
       src: 'https://i0.wp.com/kaynuli.com/wp-content/uploads/2018/07/yankari.png?resize=948%2C627&ssl=1',
@@ -54,7 +48,58 @@ const Carousel = () => {
       alt: 'Idanre Hills',
       description: 'Idanre Hills, Ondo',
       extraInfo: 'The hills are home to a mysterious footprint believed to belong to a deity, which locals say never fades.',
-    }
+    },
+    {
+      src: 'https://c1.staticflickr.com/3/2496/4202980259_04248bdd3b_b.jpg',
+      alt: 'Nike Art Gallery',
+      description: 'Nike Art Gallery, Lagos',
+      extraInfo: 'The gallery was established in 1983 by Nike Davies-Okundaye without any governental assistance, solely from her earnings as an artist.',
+    },
+    {
+      src: 'https://th.bing.com/th/id/R.519e68c99b03dd73acecf0b044537492?rik=Ir2wu6oWpDAFaQ&pid=ImgRaw&r=0',
+      alt: 'Mambilla Plateau',
+      description: 'Mambilla Plateau',
+      extraInfo: 'The Plateau is home to Nigerias only highland tea plantation, producing some of the best tea in the country.',
+    },
+    {
+      src: 'https://th.bing.com/th/id/R.cb3eae5ba230293dc791eb8f2f9bae0b?rik=TB5W0vNR9cbNLQ&pid=ImgRaw&r=0',
+      alt: 'Lekki Conservation Center, Lagos',
+      description: 'Lekki Conservation Center, Lagos',
+      extraInfo: 'Lekki Conservation Center proudly holds the title of having the longest canopy walkway in Africa (401 meters long). It is an impressive feat that offers visitors a unique and thrilling experience while enjoying the beauty of nature.',
+    },
+    {
+      src: 'https://images.timbu.com/contents-ef55dd2d0f504d469ea8fd03e5ce842e/691df2f3-f211-4af6-8bfb-df312542cc59.png',
+      alt: 'River Niger & Benue',
+      description: 'The Confluence, Lokoja, Kogi',
+      extraInfo: 'The rivers Niger and Benue have distinct temperatures, with Niger being warmer and the Benue river. This phenomenon is due to the different sources and flow patterns of the two rivers.',
+    },
+    {
+      src: 'https://www.britishcouncil.org.ng/sites/default/files/freedom_park.jpg',
+      alt: 'Freedom Park',
+      description: 'Freedom Park, Lagos',
+      extraInfo: 'The Freedon park was once a colonial-era prison where notable political activists, including Herbert Macaulay were imprisoned.',
+    },
+    {
+      src: 'https://netstorage-legit.akamaized.net/images/vllkyt5tojm4i62gf.jpg',
+      alt: 'Kainji Dam',
+      description: 'Kainji Dam, Niger',
+      extraInfo: 'The dam is one of the largest dams in Africa, providing hydroelectric power.',
+    },
+    {
+      src: 'https://www.cometonigeria.com/wp-content/uploads/2020/01/Afi-Mountain-Wildlife-Sanctuary10-1.jpg',
+      alt: 'Afi Mountain Wildlife Sanctuary, CrossRiver',
+      description: 'Afi Mountain Wildlife Sanctuary',
+      extraInfo: 'The sanctuary is located in CrossRiver state. It is home to the critically endangered CrossRiver gorilla.',
+    },
+    {
+      src: 'https://www.nairaland.com/attachments/4447425_theogutabluelakeoftreasure1024x680_jpeg06a833f878cf0a9170b814fd08129676',
+      alt: 'Oguta Lake, Imo',
+      description: 'Oguta Lake, Imo',
+      extraInfo: 'A natural lake known for its clear blue waters.',
+    },
+
+
+   
   ];
 
   const nextSlide = () => {
