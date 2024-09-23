@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Components/Home/home';
 import Explore from './Components/Explore/explore';
 import Carousel from './Components/Carousel/carousel';
-import InterractiveMap from './Components/Interractive_Map/map';
+import Map from './Components/Interractive_Map/map';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
     <Home/>
     <Explore/>
     <Carousel/>
-    <InterractiveMap/>
+    <Map/>
   
     </div>
   );
