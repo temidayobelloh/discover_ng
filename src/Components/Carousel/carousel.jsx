@@ -240,7 +240,7 @@ const Carousel = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-slider">
-        <h5 style={{textAlign:"center", fontSize:"20px", padding:"30px 10px", color:"black"}}>Facts on Specific Locations in Nigeria <img src={facts} alt="facts-logo"/></h5>
+        <h5 style={{textAlign:"center", fontSize:"20px", padding:"30px 10px", color:"#2C3E50"}}>Facts on Specific Locations in Nigeria <img src={facts} alt="facts-logo"/></h5>
         <button className="carousel-control prev" onClick={prevSlide}>❮</button>
 
         <div className="carousel-track" style={{ transform: `translateX(-${currentIndex * 33.33}%)` }}>

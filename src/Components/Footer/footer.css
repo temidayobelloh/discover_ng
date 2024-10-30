@@ -1,0 +1,92 @@
+/* Footer container */
+.footer-container {
+    background-color: #6b5b95; /* Accent color */
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  /* Footer logo and description */
+  .footer-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-description {
+    max-width: 300px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+  
+  /* Footer navigation */
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-nav h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-nav li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #b2dbbf; /* Primary color on hover */
+  }
+  
+  /* Social media icons */
+  .footer-social {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-social a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #b2dbbf;
+    transform: scale(1.2);
+  }
+  
+  /* Copyright section */
+  .footer-copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-social {
+      justify-content: center;
+    }
+  
+    .footer-nav {
+      text-align: center;
+    }
+  }
+  

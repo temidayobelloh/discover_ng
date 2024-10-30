@@ -1,50 +1,50 @@
-.homepage-container{
-    max-width: 1440px;
-    height: 450px;
-    border: none;
-    background-color: #B2DBBF;
+.hero {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    padding: 0;
     margin: 0;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease; /* Smooth transition */
+}
+
+.slide {
+    min-width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
     padding: 0;
+    margin: 0;
 }
-.home-page-heading{
-    margin-top: 0px;
-    padding-top: 50px;
-    width: 420px;
-    height: 170px;
-    margin-left: 70px;
-}
-.explore-button{
-    margin-top: 5px;
-    margin-left: 70px;
-    border-radius: 16px;
-    border: 1px solid black;
-    width: 200px;
-    height: 66px;
-    background-color: #050505;
-    color: white;
-    font-size: 17px;
-    padding: 0;
-}
-.explore-button:hover{
-    cursor: pointer;
-    background-color: rgb(41, 41, 41);
-}
-h1{
-    width: 299px;
-    height: 180px;
-    margin-left: 40px;
-    margin-top: 50px;
-    padding: 0;
-    margin-bottom: 0px;
-    line-height: 42px;
-    font-size: 42px;
-}
-.homepage-text{
+
+.tagline {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-100%, -100%);
+    color: #34495E;
+    font-size: 30px;
     text-align: left;
-    padding: 0;
-    margin-top: 0px;
-    font-size: 17px;
-    margin-left: 70px;
-    width:429px;
-    height:90px;
+    z-index: 10;
+}
+
+.btn {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
 }

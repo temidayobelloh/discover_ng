@@ -1,13 +1,12 @@
 .carousel-container {
-  position: relative;
-  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   background-color: #b2dbbf; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .carousel-slider {
@@ -37,7 +36,7 @@
 }
 
 .carousel-slide:hover .slide-container {
-  transform: translateY(-5px); /* Hover effect */
+  transform: translateY(-5px); 
 }
 
 .carousel-image {
@@ -71,13 +70,13 @@
 }
 
 .view-more-btn {
-  margin-top: 10px;
-  background-color: #FF6F61;
-  color: rgba(255, 255, 255, 0.934);
+  margin-top: 2px;
+  background-color: white;
+  color: #34495E;
   border: none;
   width:60px;
   height: 30px;
-  padding: 7px 10px; /* Adjusted padding for better button size */
+  padding: 7px 10px; 
   border-radius: 20px;
   cursor: pointer;
   font-size: 12px;
@@ -88,7 +87,7 @@
 }
 
 .view-more-btn:hover {
-  background-color: #ff877c;
+  background-color: rgb(234, 231, 231);
   transform: scale(1.05);
 }
 
@@ -119,11 +118,12 @@
 }
 
 .carousel-modal {
-  margin-top: 20px; /* Space between the carousel and the modal */
+  margin-top: 20px; 
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  color: #34495E;
 }
 
 .modal-content {
