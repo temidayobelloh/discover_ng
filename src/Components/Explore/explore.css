@@ -1,19 +1,55 @@
+.explore-background{
+    margin: 0;
+    padding: 0;
+}
+.explore-heading{
+    padding: 2px;
+    color: #34495E;
+    padding-top: 35px;
+    text-align: center;
+    text-decoration: underline;
+
+}
 .explore-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+ display: block;
+ margin-left: 180px;
+ 
 }
 .explore-container p{
-    width: 400px;
+    width: 550px;
     text-align: left;
-    margin-top: 50px;
-    height: 150px;
-    font-size: 16px;
-    line-height: 30px;
+    margin-top: 30px;
+    height: 120px;
+    font-size: 17px;
+    line-height: 26px;
+    color: #34495E;
 }
-.explore-icons{
+.explore-btn{
+    padding: 20px;
+    margin-top: 0px;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    background-color: #34495E;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.explore-icons-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 65px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 39px;
+}
+.tips{
+    width: 350px;
+    height: 100px;
+    margin-top: 5px;
+    text-align: left;
+    color:#34495E;
+    margin: 8px;
+    font-size: 15px;
+    
 }

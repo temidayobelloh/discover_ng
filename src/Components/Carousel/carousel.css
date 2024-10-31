@@ -1,18 +1,23 @@
 .carousel-container {
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #b2dbbf; 
+  background-image: url('../assets/blob-scene-haikei\ \(3\).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   margin-top: 40px;
+
 }
 
 .carousel-slider {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .carousel-track {
@@ -22,7 +27,7 @@
 
 .carousel-slide {
   min-width: 33.33%;
-  padding: 0 10px; /* Gap between items */
+  padding: 0 10px; 
   box-sizing: border-box;
 }
 
@@ -71,8 +76,8 @@
 
 .view-more-btn {
   margin-top: 2px;
-  background-color: white;
-  color: #34495E;
+  background-color: rgb(90, 173, 90);
+  color: white;
   border: none;
   width:60px;
   height: 30px;
@@ -87,7 +92,7 @@
 }
 
 .view-more-btn:hover {
-  background-color: rgb(234, 231, 231);
+  background-color:  rgb(114, 209, 114);;
   transform: scale(1.05);
 }
 

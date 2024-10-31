@@ -8,7 +8,7 @@
 
 .slides {
     display: flex;
-    transition: transform 1s ease; /* Smooth transition */
+    transition: transform 1s ease; 
 }
 
 .slide {
