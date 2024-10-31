@@ -57,6 +57,7 @@ const Map = () => {
 
   return (
     <div className="leaflet-container-one">
+      <h2 className="map-heading">Explore Nigeria on the map</h2>
       <MapContainer center={[9.081999, 8.675277]} zoom={6} style={{ height: '75vh', width: '80%' }}>
         <TileLayer 
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

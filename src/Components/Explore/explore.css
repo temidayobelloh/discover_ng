@@ -1,12 +1,19 @@
 .explore-background{
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background-image: url('../assets/blob-scene-haikei\ \(3\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .explore-heading{
     padding: 2px;
     color: #34495E;
-    padding-top: 35px;
-    text-align: center;
+    padding-top: 100px;
+    text-align: left;
+    margin-left: 180px;
+    margin-bottom: 20px;
     text-decoration: underline;
 
 }
@@ -18,38 +25,46 @@
 .explore-container p{
     width: 550px;
     text-align: left;
-    margin-top: 30px;
-    height: 120px;
-    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 95px;
+    font-size: 16px;
     line-height: 26px;
     color: #34495E;
 }
 .explore-btn{
     padding: 20px;
+    font-size: 16px;
     margin-top: 0px;
     display: block;
-    border-radius: 20px;
+    border-radius: 45px;
     border: none;
     background-color: #34495E;
     color: white;
     text-align: center;
-    font-size: 15px;
 }
 .explore-icons-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1000px;
-    margin-top: 39px;
+    max-width: 800px;
+    margin-top: 30px;
+    gap: 60px;
+}
+.icon{
+    display: block;
+    margin: 0 auto;
+}
+.tips-header{
+    text-align: center;
 }
 .tips{
-    width: 350px;
+    width: 280px;
     height: 100px;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: left;
     color:#34495E;
-    margin: 8px;
     font-size: 15px;
     
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './home.css'; 
+import Search from '../SearchBtn/search';
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,8 +32,8 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <h2 className="tagline">Discover the Beauty of NIGERIA!</h2>
-      <button className="btn">Explore</button>
+      <h2 className="tag">Discover the Beauty of NIGERIA!</h2>
+      <Search/>
     </div>
   );
 };

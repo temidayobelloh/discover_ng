@@ -238,6 +238,7 @@ const Carousel = () => {
   };
 
   return (
+    <div className='carousel-wrapper'>
     <div className="carousel-container">
       <div className="carousel-slider">
         <h5 style={{textAlign:"center", fontSize:"20px", padding:"30px 10px", color:"#2C3E50"}}>Facts on Specific Locations in Nigeria <img src={facts} alt="facts-logo"/></h5>
@@ -250,7 +251,7 @@ const Carousel = () => {
                 <img src={slide.src} alt={slide.alt} className="carousel-image" />
                 <div className="carousel-overlay">
                   <h5>{slide.description}</h5>
-                  <button className="view-more-btn" onClick={() => showModal(slide.extraInfo)}>🢃</button>
+                  <button className="view-more" onClick={() => showModal(slide.extraInfo)}>Read More..</button>
                 </div>
               </div>
             </div>
@@ -268,6 +269,7 @@ const Carousel = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };

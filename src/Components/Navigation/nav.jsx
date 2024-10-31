@@ -1,65 +1,63 @@
+import { useRef } from 'react';
 import './nav.css';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Home from '../Home/home';
 import Explore from '../Explore/explore';
-import Carousel from '../Carousel/carousel';
-import Map from '../Interractive_Map/map';
+import Carousel from '../Carousel/carousel'
+import Map from '../Interractive_Map/map'
+
 
 const NavBar = () => {
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const exploreRef = useRef(null);
+  const mapRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
-    <Router>
+    <div>
       <nav className="navbar-container">
         <h1 className="navbar-logo">DiscoverNG</h1>
         <ul className="navbar-list">
           <li>
-            <NavLink 
-              to="/home" 
-              className="navbar-link" 
-              activeClassName="navbar-link-active"
-            >
+            <span onClick={() => scrollToSection(homeRef)} className="navbar-link">
               Home
-            </NavLink>
+            </span>
           </li>
           <li>
-            <NavLink 
-              to="/about" 
-              className="navbar-link" 
-              activeClassName="navbar-link-active"
-            >
+            <span onClick={() => scrollToSection(aboutRef)} className="navbar-link">
               About
-            </NavLink>
+            </span>
           </li>
           <li>
-            <NavLink 
-              to="/explore" 
-              className="navbar-link" 
-              activeClassName="navbar-link-active"
-            >
+            <span onClick={() => scrollToSection(exploreRef)} className="navbar-link">
               Explore
-            </NavLink>
+            </span>
           </li>
           <li>
-            <NavLink 
-              to="/map" 
-              className="navbar-link" 
-              activeClassName="navbar-link-active"
-            >
+            <span onClick={() => scrollToSection(mapRef)} className="navbar-link">
               Map
-            </NavLink>
+            </span>
           </li>
-         
         </ul>
       </nav>
 
-      <div className="navbar-content">
-        <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<Explore />} />
-          <Route path="/explore" element={<Carousel />} />
-          <Route path="/map" element={<Map />} />
-        </Routes>
+
+      <div ref={homeRef} className="section">
+        <Home/>
       </div>
-    </Router>
+      <div ref={aboutRef} className="section">
+        <Explore/>
+      </div>
+      <div ref={exploreRef} className="section">
+        <Carousel/>
+      </div>
+      <div ref={mapRef} className="section">
+        <Map/>
+      </div>
+    </div>
   );
 };
 
