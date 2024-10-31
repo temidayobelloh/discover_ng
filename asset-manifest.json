@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/discover_ng/static/css/main.40154906.css",
+    "main.js": "/discover_ng/static/js/main.169f1e96.js",
+    "static/js/453.c783a51d.chunk.js": "/discover_ng/static/js/453.c783a51d.chunk.js",
+    "static/media/blob-scene-haikei (3).png": "/discover_ng/static/media/blob-scene-haikei (3).c6b0bee77769ccc9f15c.png",
+    "static/media/facts.svg": "/discover_ng/static/media/facts.4f3f60ee203d39cf748299d3660926d2.svg",
+    "index.html": "/discover_ng/index.html",
+    "static/media/explore_24dp_34495E_FILL0_wght400_GRAD0_opsz24.svg": "/discover_ng/static/media/explore_24dp_34495E_FILL0_wght400_GRAD0_opsz24.043c120aa35716c4037b4014e0c122b0.svg",
+    "static/media/map_24dp_34495E_FILL0_wght400_GRAD0_opsz24.svg": "/discover_ng/static/media/map_24dp_34495E_FILL0_wght400_GRAD0_opsz24.42db81c633e3f245069662dc17af03fb.svg",
+    "static/media/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg": "/discover_ng/static/media/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.0d4143223ae04fe49b996f31accb5105.svg",
+    "static/media/navigation_24dp_34495E_FILL0_wght400_GRAD0_opsz24.svg": "/discover_ng/static/media/navigation_24dp_34495E_FILL0_wght400_GRAD0_opsz24.1a41d00ec1cbdd85cb98fbf5732d5f5c.svg",
+    "main.40154906.css.map": "/discover_ng/static/css/main.40154906.css.map",
+    "main.169f1e96.js.map": "/discover_ng/static/js/main.169f1e96.js.map",
+    "453.c783a51d.chunk.js.map": "/discover_ng/static/js/453.c783a51d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40154906.css",
+    "static/js/main.169f1e96.js"
+  ]
+}
