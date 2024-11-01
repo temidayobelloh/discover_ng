@@ -11,7 +11,6 @@ const Explore = () => {
     <h2 className='explore-heading'>What is Discover NG?</h2>
     <div className='explore-container'>
     <p> Discover NG is your gateway to Nigeria’s breathtaking attractions and cultural gems. Our web app offers a platform for virtual tours of hidden treasures, sharing intriguing facts and stories about each site.</p>
-    <button className='explore-btn'>Explore Now</button>
     </div>
     <div className='explore-icons-container'>
       <div>

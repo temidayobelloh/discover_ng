@@ -12,14 +12,14 @@
     color: #34495E;
     padding-top: 100px;
     text-align: left;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-bottom: 20px;
     text-decoration: underline;
 
 }
 .explore-container{
  display: block;
- margin-left: 180px;
+ margin-left: 200px;
  
 }
 .explore-container p{
@@ -42,14 +42,15 @@
     background-color: #34495E;
     color: white;
     text-align: center;
+    max-width: 15%;
 }
 .explore-icons-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 800px;
-    margin-top: 30px;
+    max-width: 850px;
+    margin-top: 85px;
     gap: 60px;
 }
 .icon{
